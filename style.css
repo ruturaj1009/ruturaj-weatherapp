@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+:root{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    background: transparent;
+}
+.container-fluid{
+    width: 430px;
+    margin: 50px auto;
+    padding: 10px;
+    background: transparent;
+    
+}
+.inputs{
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    background: transparent;
+    /* background-image: url("bg.jpg"); */
+
+}
+.inputs input[type="text"]{
+    width: 20rem;
+    height: 3.5rem;
+    /* background: #f0e9e9; */
+    font-size: 1.1rem;
+    justify-content: center;
+    text-align: center;
+    font-weight: 500;
+    font-family: cursive;
+    background: transparent;
+    border: 2px solid #1f1414;
+    border-radius: 5px;
+    margin-right: 4px;
+    padding: 10px;
+}
+.inputs input[type="submit"]{
+    height: 3.2rem;
+    width: 6.5rem;
+    margin-top: 1rem;
+    background: rgb(73, 146, 241);
+    border-radius: 10%;
+    border: 2px solid #1220e4;
+    font-weight: bold;
+    color: white;
+    font-size: 1.1rem;
+}
+.display{
+    text-align: center;
+    width: 410px;
+    color: #16a864;
+    background:transparent;
+}
+.wrapper{
+    margin: 0 9rem;
+    background: transparent;
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 8px;
+    
+}
+.wrapper h2{
+    padding: 5px 0;
+    background: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(15, 14, 14);
+    font-family: cursive;
+}
+.wrapper p{
+    margin: 20px 10px;
+    padding: 5px 0;
+    font-size: 1.5rem;
+    background: transparent;
+    text-align: center;
+    color: rgb(7, 6, 6);
+    font-family: cursive;
+}
+#sp2{
+    margin: 20px 10px;
+    padding: 5px 0;
+    font-size: 1.5rem;
+    background: transparent;
+    text-align: center;
+    color: rgb(25, 21, 223);
+    font-family: cursive;
+}
+#sp1{
+    margin: 20px 10px;
+    padding: 5px 0;
+    font-size: 1.5rem;
+    background: transparent;
+    text-align: center;
+    color: rgb(226, 124, 41);
+    font-family: cursive;
+}
+#sp3{
+    margin: 20px 10px;
+    padding: 5px 0;
+    font-size: 1.5rem;
+    background: transparent;
+    text-align: center;
+    color: rgb(37, 170, 88);
+    font-family: cursive;
+}
+#sp{
+    padding: 5px 0;
+    background: transparent;
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(24, 19, 19);
+    font-family: sans-serif;
+}
+#new{
+    text-align: center;
+    font-size: 3rem;
+    color: #310db3;
+    text-shadow: 1px 1px #1f1414;
+}
